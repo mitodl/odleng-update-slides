@@ -2,7 +2,7 @@
 
 # ODL Engineering Update
 
-Wednesday, October 27, 2015
+Wednesday, October 28, 2015
 
 <img style="border: none" src="images/MIT_digitallearning_engdept_logo_2@2x.png">
 
