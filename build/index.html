@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Prez</title>
+
+    <meta name="description" content="-- DESCRIPTION HERE --">
+    <meta name="author" content="pdpinch">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="css/highlight/styles/zenburn.css" id="highlight-theme">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="stylesheet" href="css/custom.css">
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides"><section id="intro" class="slide" data-has-notes="true">
+<p><br /></p>
+<h1>ODL Engineering Update</h1><p>Wednesday, October 27, 2015</p>
+<p><img style="border: none" src="images/MIT_digitallearning_engdept_logo_2@2x.png"></p>
+<p><sub>these slides: <a href="http://tinyurl.com/odleng-update">http://tinyurl.com/odleng-update</a></sub><br />
+<sub>project status: <a href="http://tinyurl.com/odleng-projects">http://tinyurl.com/odleng-projects</a></sub></p>
+</section>
+<section id="future" class="slide">
+<p><br /></p>
+<h2>the foreseeable future</h2><ul>
+<li>LORE</li>
+<li>CCX </li>
+<li>Teacher Portal</li>
+<li>Annotations</li>
+<li>SGA</li>
+<li>STAR CellBio</li>
+<li>Residential</li>
+</ul>
+</section>
+<section>
+<section id="lore-lore" class="slide" data-has-notes="true">
+<h1>LORE</h1><h3>Learning Objects Repository for Education</h3><ul>
+<li><a href="https://github.com/mitodl/lore/blob/master/RELEASE.rst">Version 0.12.0</a> released on 10/27/2015</li>
+<li>All basic features complete: <ul>
+<li>course import</li>
+<li>faceted search</li>
+<li>metadata editing</li>
+<li>preview</li>
+<li>export</li>
+</ul>
+</li>
+</ul><aside class="notes"><p>We&#39;re up to version 0.12 now and this is in active use by physics. We&#39;re 
+at a point where we&#39;d love to see more users. So please get in touch, or just
+try it out by going to lore.odl.mit.edu</p></aside>
+</section>
+<section id="lore-lore" class="slide" data-has-notes="true">
+<p><br /></p>
+<h3>LORE</h3><ul>
+<li>more users</li>
+<li>performance improvements</li>
+<li>bug fixes</li>
+<li>analytics integration</li>
+<li>persistent metadata</li>
+<li>versioning</li>
+<li>better edX &amp; studio integration</li>
+</ul><aside class="notes"><p>We&#39;re up to version 0.12 now and this is in active use by physics. We&#39;re 
+at a point where we&#39;d love to see more users. So please get in touch, or just
+try it out by going to lore.odl.mit.edu</p></aside>
+</section>
+</section>
+<section>
+<section id="ccx-ccx" class="slide" data-has-notes="true">
+<p><br /></p>
+<h1>CCX</h1><h3>Custom Courses on edX</h3><ul>
+<li>in production now on edge.edx.org and edx.org</li>
+<li>still waiting for analytics</li>
+<li>working on gradebook improvements</li>
+<li>scheduling fixes</li>
+<li>better visibility for instructors</li>
+</ul><aside class="notes"><p>CCX is a stealth feature now, but it&#39;s available on edge.edx.org and 
+edx.org. So if someone wants to re-use one of your MOOCs now, you don&#39;t need to
+copy it, you don&#39;t need to re-run. You just need to turn on the CCX flag and
+then add them as a coach. We do have plans to monetize this, so it&#39;s worth 
+talking to Lisa Schwallie about it first.</p></aside>
+</section>
+</section>
+<section id="teacher-portal" class="slide" data-has-notes="true">
+<p><br /></p>
+<h1>Teacher Portal</h1><h3>one stop shopping</h3><ul>
+<li>catalog of CCXs available for re-use</li>
+<li>courses for teachers</li>
+<li>OCW educator materials</li>
+</ul><aside class="notes"><p>The teacher&#39;s portal gathers together information and content that&#39;s of
+interest to one of the most active segments of ours users: teachers. A feature 
+of this portal will be to identify CCX offerings</p></aside>
+</section>
+<section>
+<section id="annotations-annotations" class="slide">
+<p><br /></p>
+<h1>Annotations</h1><p>situated annotations: tied to a particular spot in a document, video, or image</p>
+</section>
+<section id="annotations-annotations" class="slide" data-has-notes="true">
+<h3>Annotations</h3><h2>Prior art in edX</h2><ul>
+<li><a href="http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/annotation.html">edX &quot;Annotation Problem&quot;</a><ul>
+<li>course author shares annotations with students</li>
+<li>text only</li>
+</ul>
+</li>
+<li><a href="http://annotation.chs.harvard.edu/">&quot;Harvard Annotations&quot; on edX</a><ul>
+<li>students share with each other and instructor</li>
+<li>allows annotations on text, image and video</li>
+<li>Harvard moving away from this towards an LTI solution</li>
+</ul>
+</li>
+<li><a href="http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-birch/exercises_tools/student_notes.html">edX Student Notes</a><ul>
+<li>private student annotations</li>
+<li>text only</li>
+</ul>
+</li>
+</ul><aside class="notes"><p>student notes tool is screenreader- and keyboard-accessible</p></aside>
+</section>
+<section id="annotations-annotations" class="slide" data-has-notes="true">
+<h3>Annotations</h3><h2><a href="https://projects.invisionapp.com/d/main#/projects/5005250">Text &amp; Video Prototype</a></h2><ul>
+<li>evaluating Student Notes API for annotation store</li>
+<li>evaluating Discussion API for comments</li>
+</ul><aside class="notes"><p>student notes tool is screenreader- and keyboard-accessible</p></aside>
+</section>
+</section>
+<section id="sga" class="slide" data-has-notes="true">
+<p><br /></p>
+<h1>SGA</h1><h3>Staff-graded assignments</h3><ul>
+<li>XBlock now part of edx.org</li>
+<li>not recommended at MOOC-scale </li>
+<li>workflow improvements learned from 24.118x</li>
+</ul>
+</section>
+<section id="cellbio" class="slide" data-has-notes="true">
+<p><br /></p>
+<h1>STAR Cell Bio</h1><ul>
+<li>stable sample exercises released </li>
+<li>working on &quot;Assignment Builder&quot; for instructors</li>
+</ul>
+</section>
+<section id="residential" class="slide" data-has-notes="true">
+<p><br /></p>
+<h1>MITX Residential</h1><ul>
+<li>next edX release &#39;Dogwood&#39; delayed</li>
+<li>MITx on IS&amp;T</li>
+<li>PDF</li>
+<li>improved Stellar integration</li>
+<li>What else?</li>
+</ul><aside class="notes"><p>28% of respondents in faculty user survey wanted better PDF support.</p>
+<p>Stellar integration includes things like grade scaling, non-destructive 
+gradebook updates, reliable synchronization with membership (staff &amp; students)</p></aside>
+</section>
+<section id="further" class="slide" data-has-notes="true">
+<p><br /></p>
+<h1>Further out</h1><h3>ODL Product Council</h3><ul>
+<li>MIT online learning portal</li>
+<li>persistent access to residential MITx content</li>
+<li>course atlas</li>
+<li>anonymous MITx / OCW interactive</li>
+</ul><aside class="notes"><p>The ODL product council has identified these as potential projects, but 
+they need to be developed further before we can decide how &amp; whether to pursue 
+them.</p></aside>
+</section></div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+
+      transition: Reveal.getQueryHash().transition || 'slide', // none/fade/slide/convex/concave/zoom
+
+      // Optional reveal.js plugins
+      dependencies: [
+        //{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        //{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        //{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: 'plugin/zoom-js/zoom.js', async: true },
+        { src: 'plugin/notes/notes.js', async: true }
+      ]
+    });
+    </script>
+
+    <script src="js/dynamic-theme.js"></script><script src="js/such-notes-print.js"></script><script src="js/custom.js"></script>
+
+  </body>
+</html>
